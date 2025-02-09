@@ -2,16 +2,16 @@ export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <p className="sub--title"></p>
+        <h2>Susisiekite</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          Atsakymo laikas įprastai iki 2 darbo dienų
         </p>
       </div>
       <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First Name</span>
+            <span className="text-md">Vardas</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -21,7 +21,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last Name</span>
+            <span className="text-md">Pavarde</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -31,7 +31,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="email" className="contact--label">
-            <span className="text-md">Email</span>
+            <span className="text-md">E-paštas</span>
             <input
               type="email"
               className="contact--input text-md"
@@ -41,9 +41,9 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">Tel. Numeris</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
@@ -51,30 +51,17 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
         <label htmlFor="message" className="contact--label">
-          <span className="text-md">Message</span>
+          <span className="text-md">Papasakokit plačiau apie savo idėją</span>
           <textarea
             className="contact--input text-md"
             id="message"
             rows="8"
-            placeholder="Type your message..."
+            placeholder="Įrašyti savo žinutę"
           />
         </label>
-        <label htmlFor="checkboc" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button className="btn btn-primary contact--form--btn">Pateikti</button>
         </div>
       </form>
     </section>

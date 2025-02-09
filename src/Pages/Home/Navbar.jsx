@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="/img/transparent_image (1).png" alt="Logoipsum" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -58,11 +58,25 @@ function Navbar() {
               to="heroSection"
               className="navbar--content"
             >
-              Home
+              Pagrindinis
             </Link>
           </li>
           <li>
-            <Link
+          <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="AboutMe"
+              className="navbar--content"
+            >
+              Apie mane
+            </Link>
+          </li>
+          <li>
+          <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
@@ -75,35 +89,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
-              className="navbar--content"
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="testimonial"
-              className="navbar--content"
-            >
-              Testimonials
-            </Link>
-          </li>
-        </ul>
+          </ul>
       </div>
       <Link
         onClick={closeMenu}
@@ -115,7 +101,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-        Contact Me
+        Susisiek
       </Link>
     </nav>
   );

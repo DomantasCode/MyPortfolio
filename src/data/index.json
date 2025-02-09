@@ -4,74 +4,49 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Turiu patirties HTML, CSS, JavaScript ir React srityse, kuriant responsyvias, interaktyvias ir modernias programas."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Turiu patirties Python, Java ir C++ backend kūrime, MySQL duomenų bazėse kuriant greitas ir saugias sistemas"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/feather-pen-1.png",
+      "title": "Dirbtinis Intelektas",
+      "description": "Specializuojuosi dirbtiniame intelekte, kurdamas išmanius sprendimus su mašininiu mokymusi"
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Dizainas",
+      "description": "Turiu patirties UI/UX dizaino srityje, kurdamas modernias ir patogias vartotojo sąsajas su Figma"
     }
   ],
   "portfolio": [
-    {
-      "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-    {
-      "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-    {
-      "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    }
-  ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
-    }
-  ]
+  {
+    "id": "1",
+    "src": "./img/Screenshot 2025-02-09 152216.png",
+    "title": "Slaptažodžio tikrinimas",
+    "description": "Slaptažodžio stiprumo tikrinimo įrankis. Sukurta naudojant HTML, CSS, JS ir React.",
+    "link": "https://github.com/DomantasCode/Password-Validation-Check"
+  },
+  {
+    "id": "2",
+    "src": "./img/placeholder-image-1.png",
+    "title": "App Dashboard",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "link": "https://github.com/DomantasCode/App-Dashboard"
+  },
+  {
+    "id": "3",
+    "src": "./img/placeholder-image-2.png",
+    "title": "Easy Rent",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "link": "https://github.com/DomantasCode/Easy-Rent"
+  }
+]
+
 }

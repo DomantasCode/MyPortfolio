@@ -1,4 +1,16 @@
-/* Global CSS */
+.navbar {
+  padding: 0; /* Remove padding */
+}
+
+.navbar--items ul {
+  padding: 0 70px 0 0 !important; /* Top 0 | Right 40px | Bottom 0 | Left 0 */
+  margin: 0 !important;
+}
+
+.navbar img {
+  width: 230px;
+  height: auto; 
+}
 
 body {
   margin: 0;
@@ -80,30 +92,25 @@ p {
   color: var(--github);
   background-color: var(--white);
 }
-/* Global CSS Ends */
-/* Main Headings */
 
-/* Heading 1 */
 h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
 }
-/* Heading 2 */
+
 h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
 }
-/* Heading 3 */
+
 h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
 }
 
-/* Pragraphs text large medium small */
-/* Body 1 */
 .text-lg {
   color: var(--darkblue);
   font-size: 18px;
@@ -111,7 +118,7 @@ h2 {
   font-weight: 400;
   line-height: 27px;
 }
-/* Body 2 */
+
 .text-md {
   color: var(--darkblue);
   font-size: 16px;
@@ -119,7 +126,7 @@ h2 {
   font-weight: 400;
   line-height: 24px;
 }
-/* Body 3 */
+
 .text-sm {
   color: var(--black);
   font-size: 14px;
@@ -128,8 +135,6 @@ h2 {
   line-height: 21px;
 }
 
-/* Section Titles */
-/* Skills & About Me */
 .section--title {
   color: var(--heading-color);
   font-size: 21px;
@@ -190,7 +195,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 150px 85.333px 133.333px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -229,6 +234,8 @@ h2 {
 }
 .hero--section--img {
   display: flex;
+  width: 400px; 
+  margin-left: 150px;
 }
 .hero--section--img > img {
   width: 100%;
@@ -509,7 +516,7 @@ input[type="checkbox"] {
 /* Footer Starts */
 .footer--container {
   display: flex;
-  padding: 106.667px 85.333px;
+  padding: 10px 85.333px;
   flex-direction: column;
   align-items: flex-start;
   background: var(--bg-shade);
@@ -746,3 +753,11 @@ input[type="checkbox"] {
 }
 
 /* Responsive Screens Ends*/
+
+@media only screen and (max-width: 768px) 
+{
+
+  .hero--section--img {
+    margin: 0;
+  }
+}

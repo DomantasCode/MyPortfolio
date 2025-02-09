@@ -2,22 +2,17 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <img src="./img/IMG_7175.jpeg" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <p className="section--title"></p>
+          <h1 className="skills-section--heading">Apie mane</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+            Sveiki! Esu Domantas – aistringas programuotojas, kuris mėgsta ne tik kurti inovatyvius sprendimus, bet ir leistis į nuotykius tiek technologijų pasaulyje, tiek realiame gyvenime. Manau, kad tikrasis augimas ir proveržis įvyksta tada, kai išdrįstame išeiti iš komforto zonos – tiek rašant kodą, tiek tyrinėjant pasaulį.
           </p>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
+            
           </p>
         </div>
       </div>
