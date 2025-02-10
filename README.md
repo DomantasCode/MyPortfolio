@@ -14,13 +14,13 @@ To preview project
 ✅ Step 1: Clone the Repository  
 Open VS Code Terminal or Command Prompt/PowerShell.  
 Run the following command (replace with your repository URL):  
-1. git clone https://github.com/DomantasCode/MyPortfolio.git  
+git clone https://github.com/DomantasCode/MyPortfolio.git  
 Navigate to the project folder:  
-2. cd MyPortfolio  
+cd MyPortfolio  
 ✅ Step 2: Install Dependencies  
 Before running the project, install the required dependencies:
-3. npm install  
+npm install  
 ✅ Step 3: Run the Project Locally  
 To preview the project, start the local development server:  
-4. npm start  
+npm start  
 
