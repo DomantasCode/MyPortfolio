@@ -9,6 +9,9 @@
 📸 Project Preview  
 🔗 Live Demo: coming soon  
 
+( Projekto nepavyko and githubo hostingo paleist, neberenderina contento modifikavus package.json yra kitas mazesnis projektas uzpinnintas githube arba paleidus si projekta galima bus perzvelgt kuris yra hostinamas )  
+( AI projekto kodo nepavyko deployint githube naudojama buvo livekit kurt agenta )  
+
 To preview project  
 
 ✅ Step 1: Clone the Repository  
