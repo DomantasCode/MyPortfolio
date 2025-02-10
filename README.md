@@ -23,6 +23,4 @@ npm install
 ✅ Step 3: Run the Project Locally  
 To preview the project, start the local development server:  
 npm start  
-It should open http://localhost:3000 in your browser.  
-If it doesn’t open automatically, go to http://localhost:3000 manually.  
 
