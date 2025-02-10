@@ -14,7 +14,7 @@ export default function HeroSection() {
             <br /> nuo interaktyvių svetainių iki galingų backend sprendimų.
           </p>
         </div>
-        <a href="/cv.pdf" download="Domantas_CV.pdf">
+        <a href="/cvone.pdf" download="Domantas_CV.pdf">
           <button className="btn btn-primary" style={{ marginTop: "35px" }}>Mano CV</button>
         </a>
       </div>
